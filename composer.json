@@ -1,0 +1,29 @@
+{
+	"name": "dravencms/webloader",
+	"type": "dravencms-package",
+	"description": "Temporary DravenCMS webloader",
+	"keywords": [
+	  "dravencms",
+	  "webloader"
+	],
+	"license": [
+	  "LGPL-3.0"
+	],
+	"authors": [
+	  {
+		"name": "Adam Schubert"
+	  }
+	],
+	"require": {
+		"php": ">= 7.1",
+		"nette/application": ">=3.0",
+		"nette/di": ">=3.0",
+		"nette/utils": ">=3.0",
+		"ext-json": "*"
+	},
+	"autoload": {
+		"psr-4": {
+        	"WebLoader\\": "WebLoader/"
+        }
+	}
+  }
